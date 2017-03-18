@@ -69,6 +69,12 @@
         },
         "com-sarriaroman-photoviewer": {
             "PACKAGE_NAME": "com.skyexplorer.shenzhenmtr"
+        },
+        "cordova-admob": {
+            "PACKAGE_NAME": "com.skyexplorer.bicycle"
+        },
+        "cordova-plugin-x-socialsharing": {
+            "PACKAGE_NAME": "com.skyexplorer.bicycle"
         }
     },
     "dependent_plugins": {
@@ -77,6 +83,9 @@
         },
         "cordova-plugin-file": {
             "PACKAGE_NAME": "com.skyexplorer.shenzhenmtr"
+        },
+        "cordova-connectivity-monitor": {
+            "PACKAGE_NAME": "com.skyexplorer.bicycle"
         }
     }
 }

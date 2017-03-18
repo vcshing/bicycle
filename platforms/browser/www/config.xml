@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget android-versionCode="1" id="com.skyexplorer.shenzhenmtr" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget android-versionCode="5" id="com.skyexplorer.bicycle" version="5.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0">
     <feature name="Camera">
         <param name="browser-package" value="Camera" />
     </feature>
     <feature name="Device">
         <param name="browser-package" value="Device" />
     </feature>
-    <name>Shen Zhen MTR</name>
+    <name>HK Bicycle Route</name>
     <description>
-        MTR
+        HK Bicycle Route
     </description>
     <author email="dev@cordova.apache.org" href="http://cordova.io">
        Sky Explorer
@@ -23,5 +23,6 @@
     <allow-intent href="geo:*" />
     <icon src="icon.png" />
     <preference name="DisallowOverscroll" value="true" />
+    <preference name="loadUrlTimeoutValue" value="700000" />
     <preference name="fullscreen" value="true" />
 </widget>
