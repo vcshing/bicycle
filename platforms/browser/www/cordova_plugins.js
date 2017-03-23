@@ -644,6 +644,41 @@ module.exports = [
         "clobbers": [
             "window.plugins.socialsharing"
         ]
+    },
+    {
+        "file": "plugins/phonegap-plugin-barcodescanner/www/barcodescanner.js",
+        "id": "phonegap-plugin-barcodescanner.BarcodeScanner",
+        "pluginId": "phonegap-plugin-barcodescanner",
+        "clobbers": [
+            "cordova.plugins.barcodeScanner"
+        ]
+    },
+    {
+        "file": "plugins/phonegap-plugin-barcodescanner/src/browser/BarcodeScannerProxy.js",
+        "id": "phonegap-plugin-barcodescanner.BarcodeScannerProxy",
+        "pluginId": "phonegap-plugin-barcodescanner",
+        "runs": true
+    },
+    {
+        "file": "plugins/com.verso.cordova.clipboard/www/clipboard.js",
+        "id": "com.verso.cordova.clipboard.Clipboard",
+        "pluginId": "com.verso.cordova.clipboard",
+        "clobbers": [
+            "cordova.plugins.clipboard"
+        ]
+    },
+    {
+        "file": "plugins/cordova-plugin-x-toast/www/Toast.js",
+        "id": "cordova-plugin-x-toast.Toast",
+        "pluginId": "cordova-plugin-x-toast",
+        "clobbers": [
+            "window.plugins.toast"
+        ]
+    },
+    {
+        "file": "plugins/cordova-plugin-x-toast/test/tests.js",
+        "id": "cordova-plugin-x-toast.tests",
+        "pluginId": "cordova-plugin-x-toast"
     }
 ];
 module.exports.metadata = 
@@ -674,7 +709,10 @@ module.exports.metadata =
     "com-sarriaroman-photoviewer": "1.1.10",
     "cordova-connectivity-monitor": "1.2.2",
     "cordova-admob": "4.1.16",
-    "cordova-plugin-x-socialsharing": "5.1.6"
+    "cordova-plugin-x-socialsharing": "5.1.6",
+    "phonegap-plugin-barcodescanner": "6.0.6",
+    "com.verso.cordova.clipboard": "0.1.0",
+    "cordova-plugin-x-toast": "2.6.0"
 }
 // BOTTOM OF METADATA
 });
